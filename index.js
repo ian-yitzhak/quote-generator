@@ -1,3 +1,4 @@
+//define quotes using arrays
 var quotes = [
 
 'Greater love has no one than this: to lay down ones life for ones friends - John 15:13',
@@ -15,6 +16,8 @@ var quotes = [
 
 
 ]
+
+//define a function to generate quote
 
 function newQuote(){
     var randomNumber = Math.floor(Math.random()*quotes.length);
